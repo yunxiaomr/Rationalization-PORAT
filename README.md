@@ -2,14 +2,13 @@
 
 **Accepted by IEEE Transactions on Knowledge and Data Engineering (TKDE) [paper link](https://arxiv.org/pdf/2510.13393)**
 
-This repository contains code for the paper "PORAT: Learnable Game-Theoretic Policy Optimization for Data-centric Self-Explanation Rationalization". 
-We release some key code in experiments. We will release all the code used in experiments.
+This repository contains code for the paper "Learnable Game-Theoretic Policy Optimization for Data-centric Self-Explanation Rationalization". We will release all the key code.
 🚀 *Code is coming soon!*
 
 ## 📘 Overview
 In this paper, we systematically revisit cooperative self-explanation rationalization from a novel game-theoretic perspective and identify the fundamental cause of rationale collapse. We then propose a novel approach, Game-theoretic Policy Optimization oriented RATionalization (PoRAT), which progressively introduces policy interventions to address the game equilibrium in the cooperative game process, thereby guiding the model toward a more optimal solution state.
 
-## Environments
+## 🏗️ Environments
 Ubuntu 22.04.4 LTS; NVIDIA RTX6000 Ada; CUDA 12.1; python 3.9.
 
 We suggest you to create a virtual environment with: conda create -n PORAT python=3.9.0
@@ -19,11 +18,11 @@ Then activate the environment with: conda activate PORAT
 Install packages: pip install -r requirements.txt
 
 
-## Datasets
+## 📚 Datasets
 Following previous research, we obtain BeerAdvocate, BeerAdvocate* and HotelReview datasets.
-- BeerAdvocate. 
-- BeerAdvocate*. 
-- HotelReview. 
+- ✅ BeerAdvocate. 
+- ✅ BeerAdvocate*. 
+- ✅ HotelReview. 
 
 ## Running example
 ### Beer-Aroma
@@ -60,15 +59,6 @@ The line "The annotation performance: sparsity: 19.1542, precision: 69.3768, rec
 - seaborn==0.13.2
 - tensorboardX==2.6.2.2
 - protobuf==5.28.0
-
-
-
-We provide:
-
-* ✅ Fine-tuning **settings** (`.yaml` configuration file)
-* ✅ Well-constructed **dataset and metadata** (`dataset_info.json`)
-
-You can directly use these files in Llama-Factory to reproduce the  **Fact Decomposition LLM** .
 
 ## 🧠 Citation
 
