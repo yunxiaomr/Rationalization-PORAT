@@ -77,3 +77,8 @@ If you find our work useful, please cite:
   doi={10.1109/TKDE.2025.3638864}}
 
 ```
+
+## 👏 Acknowledgements
+
+We thank the researcher of FR, G-RAT, AGR, and DARE. We appreciate their contributions to the community.
+
