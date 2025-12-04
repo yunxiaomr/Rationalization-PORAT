@@ -2,8 +2,8 @@
 
 **Accepted by IEEE Transactions on Knowledge and Data Engineering (TKDE) [paper link](https://arxiv.org/pdf/2510.13393)**
 
-This repository contains code for the paper "Learnable Game-Theoretic Policy Optimization for Data-centric Self-Explanation Rationalization". We will release all the key code.
-🚀 *Code is coming soon!*
+This repository contains code for the paper "Learnable Game-Theoretic Policy Optimization for Data-centric Self-Explanation Rationalization". We will release all key codes.
+⏳ *Code is coming soon!*
 
 ## 📘 Overview
 In this paper, we systematically revisit cooperative self-explanation rationalization from a novel game-theoretic perspective and identify the fundamental cause of rationale collapse. We then propose a novel approach, Game-theoretic Policy Optimization oriented RATionalization (PoRAT), which progressively introduces policy interventions to address the game equilibrium in the cooperative game process, thereby guiding the model toward a more optimal solution state.
@@ -24,11 +24,11 @@ Following previous research, we obtain BeerAdvocate, BeerAdvocate* and HotelRevi
 - ✅ BeerAdvocate*. 
 - ✅ HotelReview. 
 
-## Running example
+## 🚀 Running example
 ### Beer-Aroma
 Aroma: python -u main_porat.py --dis_lr 1 --hidden_dim 200 --data_type beer --freezing 2 --save 1 --dropout 0.2 --lr 0.0002 --batch_size 128 --gpu 1 --sparsity_percentage 0.175 --sparsity_lambda 11 --continuity_lambda 12 --epochs 100 --aspect 1 --correlated 1  --pretrain_agent True --reward_mode causal_effect --num_beam 4 --topK_ratio 0.1 --action_K 3 --pre_ward True  --writer  './results_final/beer_correlated/PORAT/noname1_20'  > ./results_final/beer_correlated/PORAT/noname1_20.log	
 
-**_Notes_**: "--sparsity_percentage 0.175" means "$s=0.175$" in Sec.3 (But the actual sparsity is different from $s$. When you change the random seed, you need to adjust the "sparsity_percentage" according to the actual sparsity on the test set.). "--sparsity_lambda 11 --continuity_lambda 12 " means $\lambda_1=11, \lambda_2=12$. "--pretrain_agent True --reward_mode causal_effect --num_beam 4 --action_K 8 --pre_ward True  --topK_ratio 0.1 " means the parameters of related agent during a search process. 
+📝 **_Notes_**: "--sparsity_percentage 0.175" means "$s=0.175$" in Sec.3 (But the actual sparsity is different from $s$. When you change the random seed, you need to adjust the "sparsity_percentage" according to the actual sparsity on the test set.). "--sparsity_lambda 11 --continuity_lambda 12 " means $\lambda_1=11, \lambda_2=12$. "--pretrain_agent True --reward_mode causal_effect --num_beam 4 --action_K 8 --pre_ward True  --topK_ratio 0.1 " means the parameters of related agent during a search process. 
 "--epochs 100" means we run 100 epochs and take the results when the "dev_acc" is best.
 
 ## Result  
@@ -50,7 +50,7 @@ Episode: 79, loss: 514.6271, cls loss: 309.7217, spa loss: 47.9385, con loss: 16
 The line "The annotation performance: sparsity: 19.1542, precision: 69.3768, recall: 85.2943, f1: 76.5165" indicates that the rationale F1 score is 76.5165.
 
 
-## Dependencies
+## 🔗 Dependencies
 - torch==2.1.0
 - matplotlib==3.9.2
 - numpy==1.26.3
@@ -60,7 +60,7 @@ The line "The annotation performance: sparsity: 19.1542, precision: 69.3768, rec
 - tensorboardX==2.6.2.2
 - protobuf==5.28.0
 
-## 🧠 Citation
+## 🔖 Citation
 
 If you find our work useful, please cite:
 
