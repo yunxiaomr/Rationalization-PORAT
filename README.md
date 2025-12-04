@@ -6,7 +6,7 @@ This repository contains code for the paper "Learnable Game-Theoretic Policy Opt
 ⏳ *Code is coming soon!*
 
 ## 📘 Overview
-This paper systematically revisits cooperative self-explanation rationalization from a novel game-theoretic perspective and identifies the fundamental cause of rationale collapse. We then propose a novel approach, Game-theoretic Policy Optimization oriented RATionalization (PoRAT), which progressively introduces policy interventions to address the game equilibrium in the cooperative game process, thereby guiding the model toward a more optimal solution state.
+This paper systematically revisits cooperative self-explanation rationalization from a novel game-theoretic perspective and identifies the fundamental cause of rationale collapse. We then propose a novel approach, Game-theoretic Policy Optimization oriented RATionalization (PORAT), which progressively introduces policy interventions to address the game equilibrium in the cooperative game process, thereby guiding the model toward a more optimal solution state.
 
 ## 🏗️ Environments
 Ubuntu 22.04.4 LTS; NVIDIA RTX6000 Ada; CUDA 12.1; python 3.9.
