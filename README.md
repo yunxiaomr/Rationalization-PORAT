@@ -78,7 +78,7 @@ If you find our work useful, please cite:
 
 ```
 
-## 👏 Acknowledgements
+##  Acknowledgements
 
 We refer to codes of FR, G-RAT, AGR, and DARE. Thanks for their contributions to the community.
 
