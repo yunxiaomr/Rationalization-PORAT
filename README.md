@@ -31,7 +31,7 @@ Aroma: python -u main_porat.py --dis_lr 1 --hidden_dim 200 --data_type beer --fr
 📝 **_Notes_**: "--sparsity_percentage 0.175" means "$s=0.175$" in Sec.3 (But the actual sparsity is different from $s$. When you change the random seed, you need to adjust the "sparsity_percentage" according to the actual sparsity on the test set.). "--sparsity_lambda 11 --continuity_lambda 12 " means $\lambda_1=11, \lambda_2=12$. "--pretrain_agent True --reward_mode causal_effect --num_beam 4 --action_K 8 --pre_ward True  --topK_ratio 0.1 " means the parameters of related agent during a search process. 
 "--epochs 100" means we run 100 epochs and take the results when the "dev_acc" is best.
 
-## Result  
+## 📊 Results
 You will get the result like "best_dev_epoch=78" at last. Then you need to find the result corresponding to the epoch with number "78".  
 For Beer-Palate, you may get a result like: 
 
@@ -40,7 +40,7 @@ traning epoch:78 recall:0.8235 precision:0.8493 f1-score:0.8362 accuracy:0.8387
 Validate
 dev epoch:78 recall:0.7924 precision:0.7894 f1-score:0.7909 accuracy:0.7905
 Validate Sentence
-dev dataset : recall:0.8908 precision:0.7108 f1-score:0.7906 accuracy:0.7641
+dev dataset: recall:0.8908 precision:0.7108 f1-score:0.7906 accuracy:0.7641
 Annotation
 annotation dataset : recall:0.8939 precision:0.9961 f1-score:0.9422 accuracy:0.8940
 
