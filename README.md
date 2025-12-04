@@ -1,4 +1,4 @@
-# Learnable Game-theoretic Policy Optimization for Data-centric Self-explanation Rationalization
+# 🧩 Learnable Game-theoretic Policy Optimization for Data-centric Self-explanation Rationalization
 
 **Accepted by IEEE Transactions on Knowledge and Data Engineering (TKDE) [paper link](https://arxiv.org/pdf/2510.13393)**
 
